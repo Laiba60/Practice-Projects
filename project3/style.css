@@ -1,1 +1,164 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    font-weight:"Roboto",sans-serif;
+    font-size:16px;
+    overflow-x: hidden;
+  
+}
 
+.sectionone{
+    position: relative;
+    background-image:url("images/developer.png");
+    min-height:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h4{
+    position:absolute;
+    left:10%;
+    top:10%;
+    color:white;
+    font-size:50px;
+
+}
+h4 span{
+ margin-left:10px;
+    font-size:30px;
+    color:white;
+    font-weight:500;
+}
+h3{
+    position:absolute;
+    top:29%;
+    left:10%;
+    color:white;
+    font-size:30px;
+}
+.sectiontwo {
+    background-color: #161619;
+    height: 20vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    margin: 0; 
+  }
+  .sectionthree{
+    width:100%;
+    height:50%;
+    background-color: white;
+    margin:20px;
+    display:flex;
+    justify-content:center
+ 
+  }
+  .wrapper{
+  
+    margin:20px;
+    border:1px solid white;
+    width:50%;
+    display:flex;
+    gap:30px;
+    box-shadow:2px 2px 10px white;
+    
+    
+  }
+  .group1{
+    width:30%;
+    height:100%;
+    border:1px solid white;
+    border-radius:3px;
+    box-shadow:2px 2px 10px white;
+    display:flex;
+    flex-direction:column;
+  }
+  .group2{
+    width:30%;
+    height:100%;
+    border:1px solid white;
+    border-radius:3px;
+    box-shadow:2px 2px 10px white;
+    display:flex;
+    flex-direction:column;
+  }
+  .group3{
+    width:30%;
+    height:100%;
+    border:1px solid white;
+    border-radius:3px;
+    box-shadow:2px 2px 10px white;
+    display:flex;
+    flex-direction:column;
+  }
+  p{
+    font-size:12px;
+    font-weight:400;
+    font-family:"Robot",sans-serif;
+    text-align:justify;
+    text-align:center;
+  }
+  .sectionfour {
+    width: 70%;
+    height: auto; /* Let height grow with content */
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: stretch; /* Stretch both columns equally */
+    margin: 20px auto; /* Center horizontally */
+  }
+  
+  .contactme,
+  .about {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  .contactme {
+    background-color: green;
+  }
+  
+  .about {
+    background-color: red;
+  }
+  
+  .sectionfour h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .sectionfour p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    margin: 0;
+  }
+  .sectionfive{
+    width:100%;
+    background-color:black;
+    height:20vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+  }
+  .sectionfive p{
+    text-align:center;
+    color:white;
+    font-size:20px;
+    text-transform:capitalize;
+    font-weight:400;
+
+  }
+  
